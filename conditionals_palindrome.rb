@@ -17,7 +17,7 @@
 
 p "Enter one word"
 
-name = gets.chomp
+name = gets.chomp.downcase
 
 if name.chars == name.chars.reverse
   p name.chars

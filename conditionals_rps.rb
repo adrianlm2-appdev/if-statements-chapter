@@ -15,7 +15,7 @@ if move == "rock"
   p "The computer played scissors!"
   p "You won!"
 elsif move == "paper"
-  p "You played rock!"
+  p "You played paper!"
   p "The computer played scissors!"
   p "You lost!"
 else
