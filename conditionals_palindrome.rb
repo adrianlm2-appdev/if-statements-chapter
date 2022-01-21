@@ -16,3 +16,15 @@
 # true
 
 p "Enter one word"
+
+name = gets.chomp
+
+if name.chars == name.chars.reverse
+  p name.chars
+  p name.chars.reverse
+  p true
+else
+  p name.chars
+  p name.chars.reverse
+  p false
+end
